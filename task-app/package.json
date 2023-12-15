@@ -1,0 +1,45 @@
+{
+  "name": "task-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:next\" \"nodemon backup.js\"",
+    "dev:next": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "autoprefixer": "10.4.14",
+    "bcrypt": "^5.1.1",
+    "child_process": "^1.0.2",
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "fs": "^0.0.1-security",
+    "googleapis": "^129.0.0",
+    "mkdirp": "^3.0.1",
+    "moment": "^2.29.4",
+    "mongodb": "^5.9.2",
+    "mongodb-backup": "^1.6.9",
+    "mongoose": "^7.6.7",
+    "next": "13.4.13",
+    "next-auth": "^4.24.4",
+    "node-cron": "^3.0.3",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rimraf": "^5.0.5",
+    "shelljs": "^0.8.5",
+    "tailwindcss": "3.3.3",
+    "util": "^0.12.5",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
